@@ -1,0 +1,22 @@
+int valvula = 13; 
+ 
+void setup() {
+  pinMode(valvula, OUTPUT); 
+}
+ 
+void loop() {
+ 
+ int sensorValue = analogRead(A0);
+ 
+ if (sensorValue > 600){
+   digitalWrite(valvula,LOW);
+   delay(5000);
+   digitalWrite(valvula,HIGH); 
+ }
+ 
+ else{
+   digitalWrite(valvula,HIGH);
+   delay(5000);
+  }
+  delay(10000); 
+}
