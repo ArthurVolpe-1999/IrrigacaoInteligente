@@ -1,0 +1,31 @@
+Materiais 
+
+1-	Arduino Uno R3: o Arduino uno original tem como objetivo ter todos os comandos que serão executados no nosso projeto e é esta 
+peça ele que realiza os comandos e liga o que cada componente fará.  É importante ressaltarmos o Arduino Uno R3 pois ele que será 
+o responsável pela comunicação do projeto com o MQTT. No nosso projeto usaremos o protocolo firmata o qual será encaminhado a leitura 
+do solo e a ação do botão de ligar ou desligar a mangueira através de um cabo USB como mostra-se na figura 2.
+
+2-	Mini Protoboard: Ela nos permite fazer as construções dos circuitos com o intuito de não termos que usar soldas, além de facilitar 
+a substituição de algum cabo e tem maior segurança. Pode- se ver na foto que onde estão os cabos vermelhos são referente são aos 5V do 
+Arduino e os cabos pretos do GND.
+
+
+3-	Sensor de Umidade: O sensor de umidade do solo tem como objetivo verificar no solo qual é a real umidade e passar essa umidade para 
+o Arduino Uno que ele sim repassará para o “modulo rele” que verá se será é necessário abrir a válvula solenoide para irrigação.
+
+4-	Modulo Rele: O modulo rele serve para fazer a ativação da válvula solenoide, ele que dirá se será necessário a válvula abrir para 
+passagem de agua e quanto tempo ela ficara ligada (5V).
+
+
+5-	Válvula Solenoide: A válvula solenoide é mais conhecida como torneira elétrica, nela ficará a mangueira onde passará a água. 
+Quando a planta necessitar de água, o modulo rele vai acionar essa válvula que liberara a água que está na mangueira, e assim irrigar 
+a planta, ou seja, ele tem o mesmo trabalho que uma torneira. (12VDC)
+
+6-	Fonte de 12V: A fonte de 12v (Volts) tem como objetivo enviar energia para a Válvula Solenoide. Tivemos que usar essa fonte pois 
+nossa válvula é de 12v e caso mandássemos a energia direto da tomada queimaríamos ela. Portanto essa fonte manda quantidade correta 
+de volts para o nosso projeto.
+
+7-	Mangueira: A mangueira serve para conectar no solenoide e é ela quem traz a água para irrigarmos a nossa planta.
+
+8-	Para a programação utilizamos o aplicativo ARDUINO IDE além de utilizarmos também o NODE-RED que é uma ferramenta/software que 
+teve como utilidade a criação de código da ligação do nosso Arduino com a internet através do protocolo firmata.
