@@ -1,11 +1,3 @@
-Se pararmos para analisar, uma irrigação possui o propósito de fornecer de forma controlada, uma quantidade suficiente de agua para
-as plantas, verduras ou legumes, garantindo a produtividade e a sobrevivência da plantação.
-
-Entretanto, as pessoas levam muito tempo para fazer a irrigação de uma plantação inteira, podendo resultar em mais esforço manual e 
-menos produtividade, além disso, é relevante dizer que efetuar uma irrigação pode acabar se tornando algo difícil dependendo da situação, 
-pois cada planta, verdura ou legumes reage de uma maneira diferente em relação ao solo em que a mesma está habitada, visto que algumas 
-conseguem se adaptar melhor em um solo com uma pequena quantidade de água, enquanto outras precisam se ambientar em um solo mais líquido. 
-
 O projeto “Irrigação Inteligente” possui como objetivo tornar automático a irrigação de plantas, verduras e legumes considerando o nível 
 de umidade do solo, vale dizer que isso será feito através de uma irrigação automática cujo propósito é verificar a necessidade de 
 umedecer o solo. Isso ocorrerá por meio de um dispositivo que estará dentro do solo, o qual, mediante o nível de umidade, poderá ativar ou 
@@ -15,5 +7,4 @@ manter o bom crescimento das verduras e legumes, porém durante a noite houve um
 o suficiente. Sendo assim, o dispositivo verificará a umidade e não permitirá que a água seja lançada sobre as plantas da horta. 
 Isso fará com que não haja excesso de água sobre as plantas, causando, consequentemente o prejuízo ou dano para a planta.
 
-Ao adquirir esse dispositivo, o proprietário obterá maior tempo para a realização dos seus afazeres e menor preocupação e trabalho 
-com a sua plantação, pois a irrigação ocorrerá automaticamente.
+
