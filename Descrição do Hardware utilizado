@@ -1,21 +1,18 @@
 Materiais 
 
-1-	Arduino Uno R3: o Arduino uno original possui como objetivo ter todos os comandos que serão executados no nosso projeto e é esta 
-peça ele que realiza os comandos e liga o que cada componente fará.  É importante ressaltarmos o Arduino Uno R3 pois ele que será 
-o responsável pela comunicação do projeto com o MQTT. No nosso projeto usaremos o protocolo firmata o qual será encaminhado a leitura 
-do solo e a ação do botão de ligar ou desligar a mangueira através de um cabo USB como mostra-se na figura 2.
+1-	Arduino Uno R3: O Arduino uno original tem como objetivo ter todos os comandos que serão executados no nosso projeto e é esta peça 
+ele que realiza os comandos e liga o que cada componente fará.  É importante ressaltarmos o Arduino Uno R3 pois ele que será o 
+responsável pela comunicação do projeto com o computador através do protocolo Firmata utilizando o cabo USB. 
 
 2-	Mini Protoboard: Ela nos permite fazer as construções dos circuitos com o intuito de não termos que usar soldas, além de facilitar 
 a substituição de algum cabo e tem maior segurança. Pode- se ver na foto que onde estão os cabos vermelhos são referente são aos 5V do 
 Arduino e os cabos pretos do GND.
-
 
 3-	Sensor de Umidade: O sensor de umidade do solo tem como objetivo verificar no solo qual é a real umidade e passar essa umidade para 
 o Arduino Uno que ele sim repassará para o “modulo rele” que verá se será é necessário abrir a válvula solenoide para irrigação.
 
 4-	Modulo Rele: O modulo rele serve para fazer a ativação da válvula solenoide, ele que dirá se será necessário a válvula abrir para 
 passagem de agua e quanto tempo ela ficara ligada (5V).
-
 
 5-	Válvula Solenoide: A válvula solenoide é mais conhecida como torneira elétrica, nela ficará a mangueira onde passará a água. 
 Quando a planta necessitar de água, o modulo rele vai acionar essa válvula que liberara a água que está na mangueira, e assim irrigar 
