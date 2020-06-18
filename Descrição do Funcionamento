@@ -1,4 +1,4 @@
-  O projeto “Irrigação Inteligente” possui como objetivo tornar automático a irrigação de plantas, verduras e legumes considerando o nível 
+  O projeto “Irrigação Inteligente” tem como objetivo tornar automático a irrigação de plantas, verduras e legumes considerando o nível 
 de umidade do solo, vale dizer que isso será feito através de uma irrigação automática cujo propósito é verificar a necessidade de 
 umedecer o solo. Isso ocorrerá por meio de um dispositivo que estará dentro do solo, o qual, mediante o nível de umidade, poderá ativar ou 
 não a irrigação. Por meio dessa irrigação inteligente as plantas ou verduras e legumes de uma horta poderão obter um crescimento natural 
