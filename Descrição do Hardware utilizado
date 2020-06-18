@@ -9,9 +9,9 @@ a substituição de algum cabo e tem maior segurança. Pode- se ver na foto que 
 Arduino e os cabos pretos do GND.
 
 3-	Sensor de Umidade: O sensor de umidade do solo tem como objetivo verificar no solo qual é a real umidade e passar essa umidade para 
-o Arduino Uno que ele sim repassará para o “modulo rele” que verá se será é necessário abrir a válvula solenoide para irrigação.
+o Arduino Uno que ele sim repassará para o módulo relé que verá se será é necessário abrir a válvula solenoide para irrigação.
 
-4-	Modulo Rele: O modulo rele serve para fazer a ativação da válvula solenoide, ele que dirá se será necessário a válvula abrir para 
+4-	Módulo Relé: O módulo relé serve para fazer a ativação da válvula solenoide, ele que dirá se será necessário a válvula abrir para 
 passagem de agua e quanto tempo ela ficara ligada (5V).
 
 5-	Válvula Solenoide: A válvula solenoide é mais conhecida como torneira elétrica, nela ficará a mangueira onde passará a água. 
